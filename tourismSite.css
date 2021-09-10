@@ -1,0 +1,78 @@
+/*Styles for titles*/
+h3{
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  color: #ffc404;
+  line-height: 30px;
+}
+
+#midSectionHeader{
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+#centerCol{
+  border-left: 2px dashed black;
+  border-right: 2px dashed black;
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  background-color: #ffc404;
+}
+
+/*Styles for images*/
+#gridimage{
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+/*Defines, names, and links font to file */
+@font-face{
+  font-family: Questrial;
+  src: url(questrial.ttf);
+}
+
+/*Styles for early life sections*/
+#gridp{
+  font-family: Questrial;
+  font-size: 18px;
+}
+
+table{
+  width: 100%
+}
+
+p{
+  font-family: Questrial;
+  font-size: 15px;
+}
+
+/* Styles for the horizontal lines */
+hr{
+  border: 1px dashed #ffc404;
+}
+
+/* Styles for the unordered lists */
+ul{
+  padding: 20px;
+  list-style-type: square;
+}
+ul li{
+  margin: 5px;
+}
+
+/* Styles for links */
+a:link{
+  color: #009dff;
+  font-family: Questrial;
+}
+a:visited{
+  color :#ffc404;
+  font-family: Questrial;
+}
+a:hover{
+  background:#ffc404;
+  font-family: Questrial;
+}

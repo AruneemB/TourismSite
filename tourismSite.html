@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href = "obnoxious.css" rel = "stylesheet"> <!-- obnoxious stylesheet -->
+    <link href = "bootstrap-grid.min.css" rel = "stylesheet"> <!-- bootstrap grid stylsheet-->
+    <link href = "tourismSite.css" rel = "stylesheet"> <!-- css stylesheet-->
+  </head>
+  <body>
+    <!-- brief summary -->
+    <center>
+      <br>
+      <img src = "starwars.png" width = "500px" height = "214px" alt = "Welcome to the Star Wars galaxy!"
+      usemap = #starwarslogomap>
+      <map name = "starwarslogomap">
+      <area shape = "default" href = "https://www.starwars.com/news" target = "_blank">
+      <!-- summary here uses obnoxious's "fontalicious" -->
+      <h3 class = "fontalicious">Welcome to the Star Wars galaxy!</h3>
+      <p class = "fontalicious">Want to take a vacation? Consider coming!</p>
+      <p class = "fontalicious">Here is more about some of the wonderful planets our galaxy has to provide.</p>
+      <br>
+    </center>
+    <!-- bootstrap starts here -->
+    <div class = "container">
+    <div class = "row">
+      <!-- first column: websites and images -->
+      <div class = "col-sm-2">
+          <!-- unordered list with hyperlinks to websites and images of Coruscant -->
+          <center>
+            <h3>Coruscant</h3>
+          </center>
+          <ul>
+            <li><a href = "https://starwars.fandom.com/wiki/Coruscant" target="_blank">Coruscant - Star Wars Wiki</a></li>
+            <li><a href = "https://www.starwars.com/databank/coruscant" target="_blank">Coruscant - Star Wars Official Webpage</a></li>
+            <li><a href = "https://starwarsblog.starwars.com/wp-content/uploads/2014/12/coruscant-1536x864.jpg" target="_blank">Image of Coruscant's Senate Building</a></li>
+            <li><a href = "https://starwarsblog.starwars.com/wp-content/uploads/2015/10/JediTemple00-2400x1200-784013996319.jpg" target = "_blank">Image of the Jedi Temple</a></li>
+            <li><a href = "https://lumiere-a.akamaihd.net/v1/images/Coruscant_03db43b4.jpeg?region=0%2C0%2C1536%2C864&width=960" target = "_blank">Image of the Buildings of Coruscant</a></li>
+          </ul>
+          <!-- unordered list with hyperlinks to websites and images of Scarif -->
+          <center>
+            <h3>Scarif</h3>
+          </center>
+          <ul>
+            <li><a href = "https://starwars.fandom.com/wiki/Scarif" target = "_blank">Scarif - Star Wars Wiki</a></li>
+            <li><a href = "https://www.starwars.com/databank/scarif" target = "_blank">Scarif - Star Wars Official Webpage</a></li>
+            <li><a href = "https://starwarsblog.starwars.com/wp-content/uploads/2016/12/scarif-rogue-one.jpeg" target = "_blank">Image of Imperial Outpost</a></li>
+            <li><a href = "https://cdna.artstation.com/p/assets/images/images/008/471/642/medium/tilmann-milde-30653084823-a550963e9b-o.jpg?1513010432" target = "_blank">Image of a Beach</a></li>
+            <li><a href = "https://i.pinimg.com/originals/d7/b9/96/d7b9966ca0a510a43051550bcfce32d6.jpg" target = "_blank">Image of Scarif's Surface</a></li>
+          </ul>
+      </div>
+      <!-- second column: table with images and information about Coruscant, Scarif, and Naboo -->
+      <div class = "col-sm-8" id = "centerCol">
+          <center>
+          <h3 id = "midSectionHeader">Visit Coruscant, Scarif, and Naboo!</h3>
+        </center>
+          <table>
+              <tr>
+                <!-- table, first row: picture and information about Coruscant -->
+                <td>
+                    <center>
+                      <img id = "gridimage" src = "coruscant.png" alt = "Image of Coruscant." usemap = #coruscantmap>
+                      <map name = "coruscantmap">
+                      <area shape = "default" href = "https://starwars.fandom.com/wiki/Coruscant" target = "_blank">
+                    </center>
+                  </td>
+                  <td>
+                    <center>
+                      <p id = "gridp">Coruscant is a vibrant planet, the heart of the galaxy.
+                        City-covered with towering skyscrapers and gleaming surroundings, the world's name
+                        is derived from a Latin word, literally meaning glittering and sparkling. The immense
+                        diversity and beautiful sights make Coruscant an important destination for your trip
+                        around the galaxy.</p>
+                    </center>
+                  </td>
+              </tr>
+              <tr>
+                <!-- table, second row: information about and picture of Scarif -->
+                <td>
+                  <center>
+                    <p id = "gridp">A beautiful tropical paradise, Scarif is another planet you should keep
+                      on your priority list. With deep-blue, shallow oceans, tranquil and idyllic beaches, and
+                      tropical, volcanic island chains, Scarif's physical features give it a serene sight. Apart from
+                      the Imperial outposts stationed on  the planet, Scarif is very peaceful, important to account for
+                      when travelling here. This is a highly recommended place to go to.</p>
+                  </center>
+                </td>
+                <td>
+                  <center>
+                    <img id = "gridimage" src = "scarif.png" alt = "Image of Scarif." usemap = #scarifmap>
+                    <map name = "scarifmap">
+                    <area shape = "default" href = "https://starwars.fandom.com/wiki/Scarif" target = "_blank">
+                </td>
+              </tr>
+              <tr>
+                <!-- table, third row: picture and information about Naboo -->
+                <td>
+                  <img id = "gridimage" src = "naboo.png" alt = "Image of Naboo." usemap = #naboomap>
+                  <map name = "naboomap">
+                  <area shape = "default" href = "https://starwars.fandom.com/wiki/Naboo" target = "_blank">
+                </td>
+                <td>
+                  <p id = "gridp">Naboo is yet another beautiful planet to visit on your trip around the galaxy.
+                    With its plains and hills, its deep tunnels and large oceans, Naboo's vast diversity of different
+                    landscapes teeming with an abundance of life will remind you of home. Whether you want to enjoy the
+                    busy capital city of Theed or check out the peaceful, rolling hills and plains, or even go diving in
+                    the deep sea tunnels and oceas, there is something for everyone here at Naboo</p>
+                </td>
+              </tr>
+          </table>
+      </div>
+      <!-- third column: websites and images of Scarif and Naboo -->
+      <div class="col-sm-2">
+          <!-- unordered list with hyperlinks to websites and images of Naboo -->
+          <center>
+            <h3>Naboo</h3>
+          </center>
+          <ul>
+            <li><a href = "https://starwars.fandom.com/wiki/Naboo" target="_blank">Naboo - Star Wars Wiki</a></li>
+            <li><a href = "https://www.starwars.com/databank/Naboo" target="_blank">Naboo - Star Wars Official Webpage</a></li>
+            <li><a href = "https://static.wikia.nocookie.net/starwars/images/e/eb/Theedroyalpalace.png/revision/latest?cb=20130719122716" target="_blank">Image of Theed</a></li>
+            <li><a href = "https://static.wikia.nocookie.net/starwars/images/7/7e/Attack_of_the_clones_3.jpg/revision/latest?cb=20160129221934" target = "_blank">Hills, Plains, and Waterfalls of Naboo</a></li>
+            <li><a href = "https://starwarsblog.starwars.com/wp-content/uploads/2015/10/Screen-Shot-2015-11-05-at-11.25.23-AM-2400x1200-315787586849.png" target = "_blank">Seaside at Naboo</a></li>
+          </ul>
+          <center>
+            <h3>General Links</h3>
+          </center>
+            <li><a href = "https://starwars.fandom.com/wiki/Main_Page" target = "_blank">Star Wars Wiki</a></li>
+            <li><a href = "https://www.starwars.com/" target = "_blank">Star Wars Official Webpage</a></li>
+            <li><a href = "https://www.youtube.com/user/starwars" target = "_blank">Star Wars YouTube Channel</a></li>
+      </div>
+    </div>
+    <!-- bootstrap continues here -->
+    <!-- created by section here -->
+    <div>
+      <center>
+        <br>
+        <br>
+        <hr>
+        <p>Created by Aruneem Bhowmick, Star Wars enthusiast.</p>
+      </center>
+    </div>
+  </body>
+</html>
